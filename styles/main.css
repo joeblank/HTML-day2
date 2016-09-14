@@ -1,0 +1,56 @@
+.main-header {
+  /*visibility: hidden;*/
+  display: flex;
+  justify-content: space-between;
+  background: #CCCCCC;
+  font-size: 40px;
+  height: 10vh;
+  width: 90%;
+  margin:auto;
+  padding: 10px;
+}
+.main-header h1 {
+  float: left;
+  margin: 5px;
+  padding: 10px;
+}
+.main-header ul li {
+  float: right;
+  margin: 10px;
+}
+.main-wrapper {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.blue-box {
+  width: 40%;
+  height: 300px;
+  background: #1CEBF5;
+  margin-bottom: 50px;
+  position: relative;
+}
+.circle {
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+}
+.tl {
+  left:20px;
+  top: 20px;
+}
+.tr {
+  right: 20px;
+  top: 20px;
+}
+.bl {
+  bottom: 20px;
+  left: 20px;
+}
+.br {
+  bottom: 20px;
+  right: 20px;
+}
